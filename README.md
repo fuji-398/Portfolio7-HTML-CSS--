@@ -5,6 +5,7 @@ Below is a portfolio site I've created, taking inspiration from the design camp.
 - Programming languag(使用言語)  
   - HTML  
   - CSS
+  - JavaScript
     <br>
     <br>
 - Reference Site(参考サイト)  
