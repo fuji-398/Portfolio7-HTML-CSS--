@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="robots" content="noindex , nofollow" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>myworktest</title>
+        <meta name="description" content="My Work練習サイト" />
+        <link rel="icon" href="img/favicon.ico" />
+
+        <!-- CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!-- Reference Site(参考サイト)　https://code-jump.com/portfolio1-menu/　-->
+
+        <!-- 参考サイトのデザインカンプでは、スマホ表示の場合、
+             ページトップのタイトルが「My Work」→「My Works」になっていますが、
+             これは間違いだと思われます-->
+        <!-- In the design comp of the reference site, for mobile display,
+             the title at the top of the page changes from 'My Work' to 'My Works.'
+             However, it is believed that this is an error.-->
+
+        <!--
+        <meta property="og:url" content="http://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="title">
+        <meta property="og:description" content="text">
+        <meta property="og:image" content="http://">
+        -->
+    </head>
+    <body class="page-contact">
+        <header id="header" class="wrapper960">
+            <h1>
+                <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo" /></a>
+            </h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="icon" src="img/Instagram_Glyph_Black.png" alt="instagram-logo" />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="wrapper960">
+            <section id="contact">
+                <h2 class="section-title">Contact</h2>
+                <form action="#" method="post">
+                    <div class="c-layout">
+                        <label for="name">NAME</label>
+                        <input type="text" id="neme" name="your-name" />
+                    </div>
+                    <div class="c-layout">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="your-email" />
+                    </div>
+                    <div class="c-layout">
+                        <label for="massage">MESSAGE</label>
+                        <textarea id="massage" name="your-massage"></textarea>
+                    </div>
+
+                    <div class="button-layout">
+                        <input type="submit" value="送信" />
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer id="footer" class="f-fixed">
+            <p>&copy; 2020 My Work</p>
+        </footer>
+    </body>
+</html>
